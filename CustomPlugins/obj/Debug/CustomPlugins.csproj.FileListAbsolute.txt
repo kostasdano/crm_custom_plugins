@@ -9,3 +9,4 @@ C:\Users\Kostas Danochristos\source\repos\CustomPlugins\CustomPlugins\obj\Debug\
 C:\Users\Kostas Danochristos\source\repos\CustomPlugins\CustomPlugins\obj\Debug\CustomPlugins.csproj.CopyComplete
 C:\Users\Kostas Danochristos\source\repos\CustomPlugins\CustomPlugins\obj\Debug\CustomPlugins.dll
 C:\Users\Kostas Danochristos\source\repos\CustomPlugins\CustomPlugins\obj\Debug\CustomPlugins.pdb
+C:\Users\Kostas Danochristos\source\repos\CustomPlugins\CustomPlugins\bin\Debug\microsoft.identitymodel.dll

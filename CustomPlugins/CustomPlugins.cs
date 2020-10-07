@@ -19,7 +19,7 @@ namespace CustomPlugins
 			if (entity.Attributes.ContainsKey("orfium_custommusictype"))
 			{
 				OptionSetValueCollection genres = new OptionSetValueCollection();
-				foreach (var option in entity.GetAttributeValue<EntityReference>("orfium_custommusictype").ToString().Split(','))
+				foreach (var option in entity.GetAttributeValue<string>("orfium_custommusictype").Split(','))
 				{
 					genres.Add(new OptionSetValue(int.Parse(option)));
 				}
