@@ -18,17 +18,27 @@ namespace CustomPlugins
 
 			if (entity.Attributes.ContainsKey("orfium_custommusictype"))
 			{
-				OptionSetValueCollection genres = new OptionSetValueCollection();
-				foreach (var option in entity.GetAttributeValue<string>("orfium_custommusictype").Split(','))
-				{
-					genres.Add(new OptionSetValue(int.Parse(option)));
+				if (entity.GetAttributeValue<string>("orfium_custommusictype") == "") {
+					entity["orfium_typeofmusic"] = "";
+				} else {
+					OptionSetValueCollection genres = new OptionSetValueCollection();
+					foreach (var option in entity.GetAttributeValue<string>("orfium_custommusictype").Split(','))
+					{
+						genres.Add(new OptionSetValue(int.Parse(option)));
+					}
+					entity["orfium_typeofmusic"] = genres;
 				}
-
-				entity["orfium_typeofmusic"] = genres;
 			}
 			else if (entity.Attributes.ContainsKey("orfium_typeofmusic"))
 			{
-				entity["orfium_custommusictype"] = string.Join(",", entity.GetAttributeValue<IEnumerable<OptionSetValue>>("orfium_typeofmusic").Select(o => o.Value.ToString()));
+				
+				if (!(entity.Attributes.Contains("orfium_typeofmusic") && entity.Attributes["orfium_typeofmusic"] != null))
+				{
+					entity["orfium_custommusictype"] = "";
+				} else
+                {
+					entity["orfium_custommusictype"] = string.Join(",", entity.GetAttributeValue<IEnumerable<OptionSetValue>>("orfium_typeofmusic").Select(o => o.Value.ToString()));
+				}
 			}
 		}
     }
