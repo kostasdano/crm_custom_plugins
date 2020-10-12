@@ -26,6 +26,10 @@ namespace CustomPlugins
 
 				entity["orfium_typeofmusic"] = genres;
 			}
+			else if (entity.Attributes.ContainsKey("orfium_typeofmusic"))
+			{
+				entity["orfium_custommusictype"] = string.Join(",", entity.GetAttributeValue<IEnumerable<OptionSetValue>>("orfium_typeofmusic").Select(o => o.Value.ToString()));
+			}
 		}
     }
 }

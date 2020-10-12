@@ -10,3 +10,15 @@ C:\Users\Kostas Danochristos\source\repos\CustomPlugins\CustomPlugins\obj\Debug\
 C:\Users\Kostas Danochristos\source\repos\CustomPlugins\CustomPlugins\obj\Debug\CustomPlugins.dll
 C:\Users\Kostas Danochristos\source\repos\CustomPlugins\CustomPlugins\obj\Debug\CustomPlugins.pdb
 C:\Users\Kostas Danochristos\source\repos\CustomPlugins\CustomPlugins\bin\Debug\microsoft.identitymodel.dll
+C:\Users\soter\Desktop\crm_custom_plugins\CustomPlugins\bin\Debug\CustomPlugins.dll
+C:\Users\soter\Desktop\crm_custom_plugins\CustomPlugins\bin\Debug\CustomPlugins.pdb
+C:\Users\soter\Desktop\crm_custom_plugins\CustomPlugins\bin\Debug\Microsoft.Crm.Sdk.Proxy.dll
+C:\Users\soter\Desktop\crm_custom_plugins\CustomPlugins\bin\Debug\microsoft.identitymodel.dll
+C:\Users\soter\Desktop\crm_custom_plugins\CustomPlugins\bin\Debug\Microsoft.Xrm.Sdk.dll
+C:\Users\soter\Desktop\crm_custom_plugins\CustomPlugins\bin\Debug\Microsoft.Crm.Sdk.Proxy.xml
+C:\Users\soter\Desktop\crm_custom_plugins\CustomPlugins\bin\Debug\Microsoft.Xrm.Sdk.xml
+C:\Users\soter\Desktop\crm_custom_plugins\CustomPlugins\obj\Debug\CustomPlugins.csprojAssemblyReference.cache
+C:\Users\soter\Desktop\crm_custom_plugins\CustomPlugins\obj\Debug\CustomPlugins.csproj.CoreCompileInputs.cache
+C:\Users\soter\Desktop\crm_custom_plugins\CustomPlugins\obj\Debug\CustomPlugins.csproj.CopyComplete
+C:\Users\soter\Desktop\crm_custom_plugins\CustomPlugins\obj\Debug\CustomPlugins.dll
+C:\Users\soter\Desktop\crm_custom_plugins\CustomPlugins\obj\Debug\CustomPlugins.pdb
